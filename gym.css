@@ -1,0 +1,124 @@
+body
+{
+margin: 0px;
+padding: 0px;
+background-color: rgb(190, 188, 188);
+background-image: url("gym.jpg"); 
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#logo
+{
+color: white;
+/* border: 2px solid rgb(128, 0, 28); */
+display: inline-block;
+position: absolute;
+left: 33px;
+top: 10px;
+}
+#nav
+{
+    color: white;
+    /* border: 2px solid green; */
+    display: block;
+    width: 33%;
+    margin: auto;
+    padding: 4px 20px;
+}
+#right
+{
+    color: white;
+    /* border: 2px solid rgb(109, 128, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+ul
+{
+  
+}
+ul li
+{
+list-style: none;
+display:inline-block;
+margin: 10px;
+font-size: 17px;
+
+}
+ul li a 
+{
+    color: white;
+    text-decoration: none;
+
+}
+
+#i
+{
+    width: 78px;
+    height: 60px;
+    filter: invert(100%);
+}
+#g
+{
+    text-align: center;
+}
+a:hover
+{
+color: gray;
+text-decoration: underline  ;
+}
+
+.e
+{
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:gray;
+}
+
+#q
+{
+    border: 3px solid white;
+    width: 683px;
+    height: 350px;
+    margin: 75px 0px -425px 62px;
+    padding: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+#o
+{
+    color: white;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+input
+{
+border-radius: 5px;
+width: 317px;
+height: 26px;
+text-align: center;
+
+}   
+
+#abc
+{
+    margin: auto;
+    width: 52%
+}
+
+.q
+{
+    margin: 2px;
+}
+#ab
+{
+    background-color:gray;
+    color: white;
+    width: 95px;
+    float: right;
+}
